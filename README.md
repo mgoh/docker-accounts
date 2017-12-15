@@ -5,6 +5,6 @@ docker-compose build [web|migration]
 docker-compose up
 ```
 
-##Notes
+## Notes
 * Drop in local_settings.py 
 * Edit database info in lcoal_settings.py
