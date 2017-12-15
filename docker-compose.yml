@@ -5,7 +5,7 @@ services:
     image: postgres
   web:
     build: .
-    command: python accounts.cca.edu/manage.py runserver 0.0.0.0:8000
+    command: python portal/manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:
@@ -14,6 +14,6 @@ services:
       - db
   migration:
     build: .
-    command: python accounts.cca.edu/manage.py migrate --noinput
+    command: python portal/manage.py migrate --noinput
     volumes:
       - .:/code
