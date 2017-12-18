@@ -1,3 +1,6 @@
-[submodule "portal.cca.edu"]
-	path = portal.cca.edu
-	url = https://github.com/cca/portal
+[submodule "acccounts.cca.edu"]
+	path = accounts.cca.edu
+	url = https://github.com/cca/accounts.cca.edu
+[submodule "portal"]
+	path = portal
+	url = https://github.com/cca/portal.git
